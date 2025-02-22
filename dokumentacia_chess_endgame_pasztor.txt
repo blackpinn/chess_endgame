@@ -1,0 +1,19 @@
+dokumentcia
+
+-uvedomenie ze mozeme pouzivat akekolvek figurky, neoplati sa skumat len pozicie s damou
+- vieme vratit ci nastal mat pre zadanu farbu na vstupe alebo pre opacnu
+-ohodnocovaciu funkciu potrebujeme prisposobit tomu ze uvazujeme iba koncovky kedze inak podmienky ako ze je kral na prvom alebo poslednom riadku/stlpci by pri standardnej pozicii pri otvoreni alebo v strendej hre nema taku vahu ako pri koncovke
+
+- Poziadavka pre vstup aby farba na tahu bola ta v koncovke vyhravajuca
+
+
+- vyriesit logiku vypisovania samostatnych pozicii a informaciu o tom ci je mozne zmatovat
+- vyriest testovaciu sadu/ precitat dokument aj o dokumentacii atd...
+
+Testovacia sada:
+- jednoducha pozicia iba dama kral kde je mozny tah do troch tahov, kde nie je superov kral je na okraji
+- jednoducha pozicie kde je mat mozny/nemozny do troch tahov pre standardne kombinacie figur pri ktorych je mat mozny: kral dama, kral veza, kral kon strelec, kral dve veze (kral je na okraji)
+- pozicie kde je mozny mat do troch tahov ale kral sa nenachadza na okraji
+- pozicia kde je mat mozny do menej ako troch tahov
+- pozicia ktora je zadana tak ze na nej nastal mat/pat
+- Nespravny FEN format, Pozicia na ktorej chyba nejaky kral
