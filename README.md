@@ -1,5 +1,5 @@
 # Chess Endgame Progam
-- Tento repozitart obsahuje program, ktory sluzi na vyhodnotenie moznosti vynuteneho matu do troch tahov v sachovej koncovke
+- Tento repozitar obsahuje program, ktory sluzi na vyhodnotenie moznosti vynuteneho matu do troch tahov v sachovej koncovke
 zadanej podla konkretnej spcifikacie
 # Hlavny Prehlad
 ## Uzivatelska dokumentacia
