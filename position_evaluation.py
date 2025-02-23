@@ -20,7 +20,7 @@ def kings_distance(board):
     return max(abs(white_file-black_file), abs(white_rank-black_rank))
 
 # Tato funkcia sluzi na lepsie sprehladnenie, kedze potrebujeme podla prehravajuceho krala vzdy zistit jeho poziciu a pocet legalnych tahov na urcenie hodnoty danej pozicie 
-def get_loosing_king_info(board):
+def get_black_king_info(board):
 
     # Inicializujeme prehravajuceho krala a zistime jeho policko
     king_to_checkmate = board.king(chess.BLACK)
@@ -36,7 +36,7 @@ def get_loosing_king_info(board):
 def position_evaluation(board, maximizing_player):
 
     # Na ohodnotenie aktualnej pozicie potrebujeme zistit aktualne dolezite info o prehravajucom kralovi, jeho poziciu(stlpec,riadok) a pocet legalnych tahov
-    king_to_checkmate_file, king_to_checkmate_rank, king_legal_moves = get_loosing_king_info(board) 
+    king_to_checkmate_file, king_to_checkmate_rank, king_legal_moves = get_black_king_info(board) 
 
     # Inicializacia konstant pre hodnoty remizy, matu a dolezitych hodnot stlpcov a riadkov na sachovnici
     DRAW_VALUE = 1000
