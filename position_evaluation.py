@@ -20,7 +20,7 @@ def kings_distance(board):
     return max(abs(white_file-black_file), abs(white_rank-black_rank))
 
 # Tato funkcia sluzi na lepsie sprehladnenie, kedze potrebujeme podla prehravajuceho krala vzdy zistit jeho poziciu a pocet legalnych tahov na urcenie hodnoty danej pozicie 
-def get__king_info(board):
+def get_black_king_info(board):
 
     # Inicializujeme prehravajuceho krala a zistime jeho policko
     king_to_checkmate = board.king(chess.BLACK)
