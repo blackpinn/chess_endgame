@@ -13,6 +13,7 @@
 ## Instalacia a spustenie
 - Je potrebne mat nainstalovany git,python a napriklad pomocou terminalu spustit nasledujuci prikaz:
 ```$ git clone https://github.com/blackpinn/chess_endgame```
+- Potrebna je takisto instalacia kniznice chess pomocou ```pip instal chess```
 - Tymto sposobom mate vsetky potrebne subory, mozete si ich otvorit v nejakom IDE napriklad VS Code, pre spustenie programu je potrebne spustit program ```main.py``` co je teda mozne pomocou nejakeho IDE alebo po prikaze git clone v terminali prejst do vytvoreneho repozitara pomocou ``` $ cd chess_endgame``` a nasledne spustit hlavny subor pomocou ```$ python main.py```
 
 ## Uzivatelske rozhranie
