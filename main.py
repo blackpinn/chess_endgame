@@ -15,8 +15,6 @@ s ktorym pracujeme dalej pomocou ostatnych modulov az dostavame vystup, informac
 """
 
 if __name__ == '__main__':
-    import unittest
-    unittest.main()
 
     print("\n'''Tento program sluzi na vyhodnotenie moznosti vynuteneho matu do troch tahov bielym hracom v sachovej koncovke.'''\n")
     print("                  Vo FEN formate zadajte sachovu koncovku v ktorej je na tahu biely hrac.\n")
