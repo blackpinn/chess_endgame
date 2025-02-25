@@ -45,7 +45,7 @@ pouziva sa na detekovanie remizy
 ## Overenie spravneho fungovania
 - V repozitari ktory si stiahnete su zahrnute aj dva unittest skripty obsahujuce testovacie data. Mozete si takto overit ze sa instalaciou nic nepokazilo a program funguje ako ma. Prvy unittest sluzi na otestovanie hlavnej logiky(pozicie splnujuce specifikaciu a format) pre rozne pripady, ktore mozu nastat(Obsiahnute su len tie najhlavnejsie). Druhy unittest sluzi na otestovanie zachytavania nie korektneho vstupu a pozicie nesplnujucu specifikaciu.
 - Staci prejst do korenoveho adresara kde boli stiahnute vsetky subory otvorit terminal a nasledne spustit: 
-pre prvy test: ```$ python -m unittest endgame_position_tests.py``` 
-pre druhy test: ```$ python -m unittest valid_input_positiosn_tests.py```
+pre prvy test: ```$ python endgame_position_tests.py``` 
+pre druhy test: ```$ python valid_input_positiosn_tests.py```
 
 ```* Ikonku $ pouzivam len na rozlisenie ze ide o nejaky prikazovy riadok/terminal```
